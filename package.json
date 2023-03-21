@@ -1,0 +1,21 @@
+{
+  "name": "proyectone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit --detectOpenHandles",
+    "visual-test": "jest --updateSnapshot --forceExit --detectOpenHandles __test__/visual.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jest": "^29.4.2",
+    "puppeteer": "^19.7.5"
+  },
+  "devDependencies": {
+    "jest-image-snapshot": "^6.1.0",
+    "prettier": "^2.8.4"
+  }
+}
